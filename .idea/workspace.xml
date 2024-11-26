@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="249e64b6-765e-4ae3-a2b9-a7cca9968f66" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/Merchant/src/main/java/merchant/mapper/MerchantMapperImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2p38UBz4FwuddJtRNBiSxVDqYCJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/server-class/teamwork&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="merchant.mapper.Impl" />
+      <recent name="merchant.mapper" />
+      <recent name="user.service.Impl" />
+      <recent name="user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\server-class\teamwork\Merchant\sql" />
+      <recent name="E:\server-class\teamwork\Courier\src\main\java\courier\service" />
+      <recent name="E:\server-class\teamwork\Courier\src\main\java\courier\pojo" />
+      <recent name="E:\server-class\teamwork\Courier\src\main\java\courier\mapper" />
+      <recent name="E:\server-class\teamwork\Courier\src\main\java\courier\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringcloudMovieServerApplication">
+    <configuration name="MerchantApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="merchant.merchant.MerchantApplication" />
+      <module name="Merchant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="merchant.merchant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourierApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Courier" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="courier.CourierApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MerchantApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Merchant" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="merchant.merchant.MerchantApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudMovieServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="User" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="user.SpringcloudMovieServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Teamwork" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="teamwork.TeamworkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="User" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.MerchantApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="249e64b6-765e-4ae3-a2b9-a7cca9968f66" name="更改" comment="" />
+      <created>1731983413590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731983413590</updated>
+      <workItem from="1731983414601" duration="446000" />
+      <workItem from="1731983880700" duration="112000" />
+      <workItem from="1731984013753" duration="569000" />
+      <workItem from="1731984650680" duration="27000" />
+      <workItem from="1731984689257" duration="214000" />
+      <workItem from="1731984944727" duration="158000" />
+      <workItem from="1731985127649" duration="957000" />
+      <workItem from="1731986146689" duration="720000" />
+      <workItem from="1732007735783" duration="5437000" />
+      <workItem from="1732062910730" duration="17000" />
+      <workItem from="1732063497985" duration="858000" />
+      <workItem from="1732064437212" duration="736000" />
+      <workItem from="1732065212242" duration="1301000" />
+      <workItem from="1732091435345" duration="70000" />
+      <workItem from="1732091519854" duration="443000" />
+      <workItem from="1732092019179" duration="260000" />
+      <workItem from="1732092451345" duration="43000" />
+      <workItem from="1732092541723" duration="54000" />
+      <workItem from="1732092813245" duration="371000" />
+      <workItem from="1732148323138" duration="1899000" />
+      <workItem from="1732150497549" duration="1592000" />
+      <workItem from="1732152611630" duration="574000" />
+      <workItem from="1732153334877" duration="140000" />
+      <workItem from="1732153529371" duration="5356000" />
+      <workItem from="1732512528976" duration="28000" />
+      <workItem from="1732582266736" duration="1280000" />
+      <workItem from="1732583579916" duration="1908000" />
+      <workItem from="1732585530476" duration="854000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,34 @@
+#spring.application.name=User
+#
+#package com.example.demo;
+#
+#import=org.springframework.boot.SpringApplication;
+#@SpringBootApplication
+#SpringApplication.run(DemoApplication.class, args);
+
+# ????8080?????8080?
+server:
+  port: 8080
+# ??????
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+#server:
+#  port: 6789
+#
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/text?useSSL=false&useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+#
+#
+#mybatis:
+#  mapper-locations: classpath:mapper/*.xml
+#  check-config-location: true
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
