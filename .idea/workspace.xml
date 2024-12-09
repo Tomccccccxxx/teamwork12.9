@@ -4,64 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249e64b6-765e-4ae3-a2b9-a7cca9968f66" name="更改" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/Courier/src/main/java/courier/controller/ICourierController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Courier/src/main/java/courier/pojo/CourierImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Courier/src/main/java/courier/pojo/DateFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Courier/src/main/java/courier/service/MerchantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Merchant/src/main/java/merchant/pojo/MerchantOrderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Merchant/src/main/java/merchant/service/IMerchantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Merchant/src/main/java/merchant/service/MerchantServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/config/AbstractCodeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/config/CodeStateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/config/DatabaseErrorState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/config/ExistingCodeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/config/FailCodeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/config/ICodeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/config/IResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/config/NullCodeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/config/QRCodeStateEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/config/SuccessCodeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/controller/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/controller/FeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/controller/IUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/controller/PostMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/controller/Retryable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/controller/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/pojo/IAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/pojo/IOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/util/AddressUtilsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/util/IAddressUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/util/IQRCodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User/src/main/java/user/util/QRCodeUtilImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Courier/src/main/java/courier/controller/CourierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Courier/src/main/java/courier/controller/CourierController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Courier/src/main/java/courier/pojo/Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/Courier/src/main/java/courier/pojo/Courier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Courier/src/main/java/courier/service/CourierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Courier/src/main/java/courier/service/CourierService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Courier/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Courier/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merchant/src/main/java/merchant/mapper/MerchantMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merchant/src/main/java/merchant/mapper/MerchantMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merchant/src/main/java/merchant/pojo/MerchantOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Merchant/src/main/java/merchant/pojo/MerchantOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merchant/src/main/java/merchant/service/MerchantService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merchant/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Merchant/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/User/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/java/user/SpringcloudMovieServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/user/SpringcloudMovieServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/java/user/config/QRCodeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/user/config/QRCodeState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/java/user/config/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/user/config/Results.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/java/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/java/user/pojo/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/user/pojo/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/java/user/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/user/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/java/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/java/user/service/api/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/user/service/api/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/java/user/util/AddressUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/java/user/util/QRCodeUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdl;.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="249e64b6-765e-4ae3-a2b9-a7cca9968f66" name="更改" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,34 +75,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "D:/Nacos/nacos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Nacos/nacos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="courier.pojo" />
@@ -319,6 +262,7 @@
       <workItem from="1733283688203" duration="239000" />
       <workItem from="1733360094836" duration="3316000" />
       <workItem from="1733363493595" duration="2389000" />
+      <workItem from="1733712844293" duration="885000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -328,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732588961679</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1733713052654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733713052654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
