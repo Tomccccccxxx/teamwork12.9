@@ -51,4 +51,6 @@ public interface MerchantMapper {
      */
     @Delete("DELETE FROM `merchantorder` WHERE orderId=#{orderId}")
     int deleteOrder(String orderId);
+
+    List<MerchantOrder> findOrderAll();
 }

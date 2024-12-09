@@ -2,8 +2,8 @@ package courier.service;
 
 import courier.mapper.CourierMapper;
 import merchant.mapper.MerchantMapper;
+import merchant.service.MerchantService;
 import user.mapper.UserMapper;
-import courier.pojo.Courier;
 import user.pojo.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,20 +12,20 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * 快递员 service层。
-
+ * 快递员 service 层。
  */
 @Service
 public class CourierService {
 
     @Autowired
-    private MerchantService merchantService;
+    private MerchantService merchantService; // 现在引用的是接口
 
     @Autowired
     private UserService userService;
 
     @Autowired
     private UserMapper userMapper;
+
     @Autowired
     private CourierMapper courierMapper;
 
@@ -52,7 +52,7 @@ public class CourierService {
     /**
      * 设置快递为丢失状态。【开启事务】
      *
-     *      若事务发送错误，则会抛出异常，并将事务回滚未上一次断点处【恢复到最近一次的状态】。
+     * 若事务发送错误，则会抛出异常，并将事务回滚未上一次断点处【恢复到最近一次的状态】。
      *
      * @param order：订单对象。
      */

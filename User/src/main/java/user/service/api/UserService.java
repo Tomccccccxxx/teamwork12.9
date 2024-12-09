@@ -1,5 +1,6 @@
 package user.service.api;
 
+import org.springframework.web.bind.annotation.PostMapping;
 import user.pojo.Order;
 
 import java.util.List;
@@ -16,4 +17,8 @@ public interface UserService {
     void updateThisSite(String orderId, String thisSite);
 
     boolean deleteOrder(String orderId);
+    public interface CourierServiceClient {
+        @PostMapping("/courier/resetQRCode")
+        void resetQRCode();
+    }
 }

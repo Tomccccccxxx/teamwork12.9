@@ -1,47 +1,34 @@
 package user.config;
 
 /**
- * 二维码状态 枚举类。
-
+ * 二维码状态接口。
  */
-public enum QRCodeState {
-    FAIL("不存在",0)
-    ,NOTSCAN("未扫描",1)
-    ,SCANNED("已扫描",2)
-    ,OVERDUE("已过期",3)
-    ,SUCCESS("成功", 1024);
+public interface QRCodeState {
+    /**
+     * 获取二维码描述信息。
+     *
+     * @return 二维码描述信息
+     */
+    String getQRCodeMsg();
 
     /**
-     * 二维码描述信息
+     * 设置二维码描述信息。
+     *
+     * @param qRCodeMsg 新的二维码描述信息
      */
-    private String qRCodeMsg;
+    void setQRCodeMsg(String qRCodeMsg);
+
     /**
-     * 二维码状态
+     * 获取二维码状态码。
+     *
+     * @return 二维码状态码
      */
-    private Integer qRCodeState;
+    Integer getQRCodeState();
 
-    QRCodeState() {
-    }
-
-    QRCodeState(String qRCodeMsg, Integer qRCodeState) {
-        this.qRCodeMsg = qRCodeMsg;
-        this.qRCodeState = qRCodeState;
-    }
-
-
-    public String getqRCodeMsg() {
-        return qRCodeMsg;
-    }
-
-    public void setqRCodeMsg(String qRCodeMsg) {
-        this.qRCodeMsg = qRCodeMsg;
-    }
-
-    public Integer getqRCodeState() {
-        return qRCodeState;
-    }
-
-    public void setqRCodeState(Integer qRCodeState) {
-        this.qRCodeState = qRCodeState;
-    }
+    /**
+     * 设置二维码状态码。
+     *
+     * @param qRCodeState 新的二维码状态码
+     */
+    void setQRCodeState(Integer qRCodeState);
 }

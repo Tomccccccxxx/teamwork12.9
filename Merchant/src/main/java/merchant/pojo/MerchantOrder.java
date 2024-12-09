@@ -1,74 +1,78 @@
 package merchant.pojo;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
-
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * 商家订单信息。
- * @author： 广东工程职业技术学院 19级物联网应用技术B班 廖理运
- * @version: 1.0
- * @since： 1.8
- */
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString
-public class MerchantOrder {
-
+public interface MerchantOrder {
 
     /**
-     * 订单号
+     * 获取订单号。
+     * @return 订单号
      */
-    private String orderId;
-    /**
-     * 用户手机号
-     */
-    private String userPhone;
-    /**
-     * 描述信息
-     */
-    private String itemDesc;
-    /**
-     * 目标站点
-     */
-    private String targetSite;
-    /**
-     * 下单时间
-     */
-    private Date date;
-    /**
-     * 订单状态
-     */
-    private String orderState;
-
+    String getOrderId();
 
     /**
-     * 格式化订单对象
+     * 设置订单号。
+     * @param orderId 订单号
      */
-    private static final DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-//    private static final DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SSS");
+    void setOrderId(String orderId);
 
+    /**
+     * 获取用户手机号。
+     * @return 用户手机号
+     */
+    String getUserPhone();
+
+    /**
+     * 设置用户手机号。
+     * @param userPhone 用户手机号
+     */
+    void setUserPhone(String userPhone);
+
+    /**
+     * 获取描述信息。
+     * @return 描述信息
+     */
+    String getItemDesc();
+
+    /**
+     * 设置描述信息。
+     * @param itemDesc 描述信息
+     */
+    void setItemDesc(String itemDesc);
+
+    /**
+     * 获取目标站点。
+     * @return 目标站点
+     */
+    String getTargetSite();
+
+    /**
+     * 设置目标站点。
+     * @param targetSite 目标站点
+     */
+    void setTargetSite(String targetSite);
 
     /**
      * 获取格式化之后的日期。
-     * @return
-     *      返回格式化之后的日期信息。
+     * @return 格式化之后的日期信息
      */
-    public String getDate() {
-        return dateFormat.format(date);
-    }
+    String getDate();
 
     /**
      * 设置日期。
-     * @param date：给定传进来的日期进行获取时间日期对象。
+     * @param date 日期
      */
-    public void setDate(Date date) {
-        this.date = date;
-    }
+    void setDate(Date date);
+
+    /**
+     * 获取订单状态。
+     * @return 订单状态
+     */
+    String getOrderState();
+
+    /**
+     * 设置订单状态。
+     * @param orderState 订单状态
+     */
+    void setOrderState(String orderState);
 }

@@ -14,7 +14,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Results<T> {
+public class Results<T> implements IResults<T> {
     /**
      * 代码值
      */
@@ -31,7 +31,7 @@ public class Results<T> {
     private T data;
 
     /**
-     * 构造物数据内容的返回信息。
+     * 构造只有代码值和描述信息的返回对象。
      *
      * @param code 代码值
      * @param msg  代码值描述信息
@@ -40,5 +40,4 @@ public class Results<T> {
         this.code = code;
         this.msg = msg;
     }
-
 }

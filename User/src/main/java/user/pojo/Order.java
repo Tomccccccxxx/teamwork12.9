@@ -3,7 +3,6 @@ package user.pojo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

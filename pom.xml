@@ -2,12 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <!-- 引入 Spring Boot 父 POM -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.3.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>teamwork</groupId>
     <artifactId>Teamwork</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -16,31 +19,43 @@
 
     <packaging>pom</packaging>
 
-    <!-- 父级模块 pom.xml 文件：指定子模块 -->
+    <!-- 指定子模块 -->
     <modules>
         <module>user</module>
         <module>merchant</module>
         <module>courier</module>
     </modules>
 
-    <!-- 添加 dependencyManagement 来管理内部依赖 -->
+    <!-- 依赖管理 -->
     <dependencyManagement>
         <dependencies>
+            <!-- 引入 Spring Cloud Alibaba 依赖 -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2023.1.0</version> <!-- 请根据实际情况选择合适的版本 -->
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- 内部模块依赖 -->
             <dependency>
                 <groupId>teamwork</groupId>
                 <artifactId>merchant</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>teamwork</groupId>
                 <artifactId>courier</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>teamwork</groupId>
                 <artifactId>user</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>${project.version}</version>
             </dependency>
+
+            <!-- 其他基础依赖 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
@@ -57,6 +72,46 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- 添加阿里云和中央仓库 -->
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <name>Aliyun Repository</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>central</id>
+            <name>Maven Central</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>aliyun</id>
+            <name>Aliyun Plugin Repository</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>central</id>
+            <name>Maven Central Plugin Repository</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <!-- 可选：项目信息 -->
     <url/>
     <licenses>
         <license/>
